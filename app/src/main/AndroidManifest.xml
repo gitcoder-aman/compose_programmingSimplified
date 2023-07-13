@@ -38,17 +38,24 @@
             android:exported="true"
             android:theme="@style/Theme.ComposeLearn">
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity
             android:name=".navigation.AnotherActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeLearn">
+
+        </activity>
+
+        <activity
+            android:name=".voyagerNavigation.VoyagerActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
     </application>

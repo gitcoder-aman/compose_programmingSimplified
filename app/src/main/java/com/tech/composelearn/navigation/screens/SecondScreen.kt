@@ -12,10 +12,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.navigation.NavHostController
 import com.tech.composelearn.navigation.AnotherActivity
+import com.tech.composelearn.navigation.util.NavigationScreen
 
 @Composable
-fun SecondScreen(context: Activity) {
+fun SecondScreen(context: Activity,navHostController: NavHostController) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -25,10 +27,18 @@ fun SecondScreen(context: Activity) {
 
     ) {
         Button(onClick = {
-            val intent = Intent(context, AnotherActivity::class.java).apply {
-                putExtra("String", "Value")
+//            val intent = Intent(context, AnotherActivity::class.java).apply {
+//                putExtra("String", "Value")
+//            }
+//            context.startActivity(intent)
+
+            //Back stack Manage
+            navHostController.navigate(NavigationScreen.ThirdScreen.route){
+                launchSingleTop = true  // only one create unique stack
+//                popUpTo(NavigationScreen.FirstScreen.route){
+//                    inclusive = true  // all destroy the backstack
+//                }
             }
-            context.startActivity(intent)
         }) {
             Text(text = "Go to Another Activity.")
 

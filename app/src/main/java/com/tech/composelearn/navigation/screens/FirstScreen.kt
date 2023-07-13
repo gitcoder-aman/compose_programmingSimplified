@@ -23,7 +23,7 @@ fun FirstScreen(navHostController: NavHostController) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Button(onClick = {
-            navHostController.navigate(NavigationScreen.SecondScreen.route)
+            navHostController.navigate(NavigationScreen.SecondScreen.createRoute("Android jetpack"))
         }) {
 
             Text(text = "First Screen")

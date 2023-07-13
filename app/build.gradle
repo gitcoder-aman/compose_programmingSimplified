@@ -83,6 +83,9 @@ dependencies {
     //Navigation
     implementation("androidx.navigation:navigation-compose:2.6.0")
 
+    // Navigator voyager
+    implementation("cafe.adriel.voyager:voyager-navigator:$voyagerVersion")
+
 }
 // Allow references to generated code
 kapt {

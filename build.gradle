@@ -2,6 +2,7 @@
 buildscript {
     ext{
         accompanist_version = "0.20.2"
+        voyagerVersion = "1.0.0-rc05"
     }
     dependencies {
         classpath "com.google.dagger:hilt-android-gradle-plugin:2.46.1"
