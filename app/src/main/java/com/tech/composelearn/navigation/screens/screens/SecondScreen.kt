@@ -1,4 +1,4 @@
-package com.tech.composelearn.voyagerNavigation.screens
+package com.tech.composelearn.navigation.screens.screens
 
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable

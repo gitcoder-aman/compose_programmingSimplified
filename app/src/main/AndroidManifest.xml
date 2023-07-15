@@ -51,6 +51,20 @@
             android:name=".voyagerNavigation.VoyagerActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeLearn">
+
+        </activity>
+
+        <activity
+            android:name=".voyagerNavigation.BottomNavigationActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
+
+        </activity>
+
+        <activity
+            android:name=".jetpackBottomNavigationView.JetpackBottomNavigation"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
