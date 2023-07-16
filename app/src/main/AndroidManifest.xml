@@ -65,6 +65,12 @@
             android:name=".jetpackBottomNavigationView.JetpackBottomNavigation"
             android:exported="true"
             android:theme="@style/Theme.ComposeLearn">
+
+        </activity>
+        <activity
+            android:name=".radioBtn.RadioActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
