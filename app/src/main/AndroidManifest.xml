@@ -71,6 +71,19 @@
             android:name=".radioBtn.RadioActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeLearn">
+
+        </activity>
+
+        <activity
+            android:name=".alertDialogBox.DialogActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
+        </activity>
+
+        <activity
+            android:name=".pickImage.PickImageActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
