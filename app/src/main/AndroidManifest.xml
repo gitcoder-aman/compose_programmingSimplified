@@ -70,7 +70,18 @@
         <activity
             android:name=".radioBtn.RadioActivity"
             android:exported="true"
+            android:theme="@style/Theme.ComposeLearn"/>
+
+        <activity
+            android:name=".textfield.TextFieldActivity"
+            android:exported="true"
             android:theme="@style/Theme.ComposeLearn">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
 
@@ -84,11 +95,13 @@
             android:name=".pickImage.PickImageActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeLearn">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".navigationDrawer.DrawerActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
 
         </activity>
     </application>
