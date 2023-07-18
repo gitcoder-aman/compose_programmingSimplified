@@ -77,6 +77,13 @@
             android:exported="true"
             android:theme="@style/Theme.ComposeLearn">
 
+        </activity>
+
+        <activity
+            android:name=".tabViewLayout.TabViewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
