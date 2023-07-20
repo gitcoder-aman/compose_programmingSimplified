@@ -84,6 +84,26 @@
             android:exported="true"
             android:theme="@style/Theme.ComposeLearn">
 
+        </activity>
+        <activity
+            android:name=".constraintLayout.ConstraintActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
+
+        </activity>
+
+        <activity
+            android:name=".state_hoisting.StateHosting"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
+
+        </activity>
+
+        <activity
+            android:name=".custom_title_card.CustomTitleCardActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
