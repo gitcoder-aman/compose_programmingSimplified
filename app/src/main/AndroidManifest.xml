@@ -104,6 +104,20 @@
             android:exported="true"
             android:theme="@style/Theme.ComposeLearn">
 
+        </activity>
+
+        <activity
+            android:name=".customToggleBtn.CustomToggleBtnActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
+
+        </activity>
+
+        <activity
+            android:name=".suggestionchips.SuggestionChipActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
