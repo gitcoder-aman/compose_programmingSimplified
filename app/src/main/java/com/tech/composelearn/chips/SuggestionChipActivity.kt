@@ -1,4 +1,4 @@
-package com.tech.composelearn.suggestionchips
+package com.tech.composelearn.chips
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

@@ -94,6 +94,9 @@ dependencies {
     //Constraint Layout in jetpack compose
     implementation "androidx.constraintlayout:constraintlayout-compose:1.0.1"
 
+    //flowLayout
+    implementation "com.google.accompanist:accompanist-flowlayout:$accompanist_version"
+
 
 }
 // Allow references to generated code
