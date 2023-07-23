@@ -114,6 +114,26 @@
         </activity>
 
         <activity
+            android:name=".sharedViewModel.SharedViewModelActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
+
+        </activity>
+
+        <activity
+            android:name=".pizzaProject.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeLearn">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
             android:name=".chips.SuggestionChipActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeLearn">
@@ -131,12 +151,6 @@
             android:name=".listSearchView.SearchViewActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeLearn">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
         </activity>
 
